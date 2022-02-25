@@ -1,7 +1,7 @@
 <h1 align="center">Form Search</h1>
 
 <div align="center"> 
-    <img src="form-search.gif" alt="Vídeo app gif">
+    <img src="form_search.gif" alt="Vídeo app gif">
 </div>
 
 <hr>
