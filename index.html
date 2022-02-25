@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Form search</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <header class="header">
+            <h1>Formulário de pesquisa</h1>
+            <p>Ensira as informações adaquadamente...</p>
+        </header>
+
+        <main>
+            <form class="form">
+                <div class="text-input-container">
+                    <label class="textform" for="name">Nome</label>
+                    <input type="text" required id="name" placeholder="Nome" autofocus>
+    
+                    <label class="textform" for="email">E-mail</label>
+                    <input type="email" required id="email" placeholder="E-mail">
+    
+                    <label class="textform" for="age">Idade (optional)</label>
+                    <input type="number" min="10" max="100" id="age" placeholder="Idade">
+                </div>
+
+                <div class="select-container">
+                    <p class="textform">Qual é o seu personagem preferido?</p>
+                    <Select required>
+                        <option disabled >Selecione o personagem</option>
+                        <option>Naruto</option>
+                        <option>Sasuke</option>
+                        <option>Sakura</option>
+                        <option>Kakashi</option>
+                    </Select>
+                </div>
+
+                <div class="input-radio-container">
+                    <p class="textform">Qual a melhor vila?</p>
+                    <label class="textform">
+                        <input class="input-radio" name="handle-vila" type="radio" value="Vila da Folha" checked>
+                        Vila da Folha
+                    </label>
+    
+                    <label class="textform">
+                        <input class="input-radio" name="handle-vila" type="radio" value="Vila da Areia" >
+                        Vila da Areia    
+                    </label>
+    
+                    <label class="textform">
+                        <input class="input-radio" name="handle-vila" type="radio" value="Vila do Som" >
+                        Vila do Som    
+                    </label>
+                </div>
+
+                <div class="select-container">
+                    <p class="textform">Quais Jutsu você mais gosta?</p>
+                    <select required>
+                        <option disabled>Selecione uma Habilidade</option>
+                        <option>Rasengam</option>
+                        <option>Chidori</option>
+                        <option>Bola de fogo</option>
+                    </select>
+                </div>
+
+                <div class="input-checkbox-container">
+                    <p class="textform">Quais qualidades de um ninja você mais gosta?</p>
+                    <label class="textform">
+                        <input type="checkbox" value="Perseveranca">
+                        Perseverânça
+                    </label>
+    
+                    <label class="textform">
+                        <input type="checkbox" value="Forca">
+                        Força
+                    </label>
+    
+                    <label class="textform">
+                        <input type="checkbox" value="Inteligencia">
+                        Inteligência
+                    </label>
+                </div>
+
+                <div class="input-textarea-container">
+                    <p class="textform">Alguma sugestão para esse formulário de pesquisa?</p>
+                    <textarea class="input-textarea" placeholder="Comente aqui..."></textarea>
+                </div>
+
+                <button>Enviar</button>
+
+            </form>
+        </main>
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comic Neue', cursive;
+    color: white;
+}
+
+input,select,option,textarea{
+    font-size: 18px;
+    color: black;
+    outline: none;
+}
+
+.container{
+    width: 60vw;
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+header h1{
+    font-size: 42px;
+    margin-top: 20px;
+    color: black;
+}
+
+header p{
+    font-size: 24px;
+    margin-top: 10px;
+    font-weight: 400;
+    color: black;
+}
+
+main form{
+    background-color: #1b1b32;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    border-radius: 8px;
+    padding: 30px 40px;
+}
+
+main form div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+main form p{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+main form .text-input-container label{
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+main form .text-input-container input{
+    border-radius: 8px;
+    height: 50px;
+    padding: 0 20px;
+    margin-bottom: 20px;
+    transition: transform 0.8s ease;
+}
+
+main form .text-input-container input:hover{
+    transform: scale(1.2);
+}
+
+main form .select-container select{
+    border-radius: 8px;
+    height: 50px;
+    padding: 0 20px;
+    margin-bottom: 20px;
+    transition: transform 0.8s ease;
+}
+
+main form .select-container select:hover{
+    transform: scale(1.2);
+}
+
+main form .input-radio-container label{
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    margin-bottom: 10px;
+
+}
+
+main form .input-radio-container label input{
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+
+main form .input-checkbox-container label{
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+main form .input-checkbox-container label input{
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+
+main form .input-textarea-container textarea{
+    padding: 20px 0 0 20px;
+    min-height: 120px;
+    resize: vertical;
+    border-radius: 8px;
+    transition: transform 0.8s ease;
+
+}
+
+main form .input-textarea-container textarea:focus{
+    transform: scale(1.5);
+}
+
+main form button{
+    color: black;
+    font-size: 24px;
+    background-color: #37af65;
+    border-radius: 8px;
+    min-height: 50px;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.8s ease;
+}
+
+
+main form button:hover{
+   transform: scale(1.05);
+}
+
+
+
+
+
